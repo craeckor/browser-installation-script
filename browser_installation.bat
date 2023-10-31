@@ -150,12 +150,12 @@ echo ================================
 echo    Which browser do you want?
 echo ================================
 echo.
-echo 1. Firefox (recommended) v!firefoxversion!
+echo 1. Firefox Browser (recommended) v!firefoxversion!
 echo 2. Brave Browser (recommended, great privacy) !brave_tag!
 echo 3. DuckDuckGo Browser (recommended, great privacy) v%version_tag_duckduckgo%
 echo 4. Mullvad Browser (recommended, great privacy) v!mullvad_version!
 echo 5. Min Browser (recommended, great privacy) !min_tag!
-echo 6. Chrome (not recommended, bad privacy - Google) latest Version
+echo 6. Chrome Browser (not recommended, bad privacy - Google) latest Version
 echo 7. Opera Browser (not recommended, bad privacy - Chinese Software) latest Version
 echo 8. OperaGX Browser (not recommended, bad privacy - Chinese Software) latest Version
 if "%min%"=="yes" (
