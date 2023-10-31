@@ -9,12 +9,12 @@ This script makes it possible to install different Browsers without a browser. G
 - Windows 10 1507 or later
 
 ## Supported Browser
-- Firefox (recommended)
+- Firefox Browser (recommended)
 - Brave Browser (recommended, great privacy)
 - DuckDuckGo Browser (recommended, great privacy)
 - Mullvad Browser (recommended, great privacy)
 - Min Browser (recommended, great privacy)
-- Chrome (not recommended, bad privacy - Google)
+- Chrome Browser (not recommended, bad privacy - Google)
 - Opera Browser (not recommended, bad privacy - Chinese Software)
 - OperaGX Browser (not recommended, bad privacy - Chinese Software)
 - Other - Install your favourite Browser manually - Uses Min for search - Min will be temporarley downloaded for search
