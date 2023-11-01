@@ -79,16 +79,17 @@ for /f "tokens=7 delims=/" %%i in ('curl -s !header! -I "https://github.com/brav
     set brave_tag=%%i
 )
 
-for /f "tokens=2 delims=^=^"^" %%i in ('curl -s !header! "https://staticcdn.duckduckgo.com/windows-desktop-browser/DuckDuckGo.appinstaller" ^| findstr "Uri="') do (
-    set download_url_duckduckgo=%%i
-)
-set "download_url_duckduckgo=!download_url_duckduckgo:"=!"
-set "download_url_duckduckgo=!download_url_duckduckgo:/>=!"
-
 for /f "tokens=2 delims=^=^"^" %%i in ('curl -s !header! "https://staticcdn.duckduckgo.com/windows-desktop-browser/DuckDuckGo.appinstaller" ^| findstr "Version="') do (
     set version_tag_duckduckgo=%%i
 )
 set "version_tag_duckduckgo=!version_tag_duckduckgo:"=!"
+
+for /f "tokens=2 delims=^=^"^" %%i in ('curl -s !header! "https://staticcdn.duckduckgo.com/windows-desktop-browser/DuckDuckGo.appinstaller" ^| findstr "!version_tag_duckduckgo!/"') do (
+    set download_url_duckduckgo=%%i
+)
+set "download_url_duckduckgo=!download_url_duckduckgo:"=!"
+set "download_url_duckduckgo=!download_url_duckduckgo:/>=!"
+set "download_url_duckduckgo=!download_url_duckduckgo: =!"
 
 for /f "tokens=4 delims=/" %%i in ('curl !header! "https://mullvad.net/en/download/browser/win64/latest" -v 2^>^&1 ^| findstr "location:"') do (
     set mullvad_version=%%i
