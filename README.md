@@ -8,7 +8,7 @@ This script makes it possible to install different Browsers without a browser. G
 - Working internet connection
 - Windows 10 1507 or later
 
-## Supported Browser
+## Supported Browsers
 - Firefox Browser (recommended)
 - Brave Browser (recommended, great privacy)
 - DuckDuckGo Browser (recommended, great privacy)
