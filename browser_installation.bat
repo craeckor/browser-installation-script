@@ -32,7 +32,7 @@ MODE 45,15
 
 echo.
 echo ======================================
-echo    Browser Installation Script v1.0
+echo    Browser Installation Script v1.1
 echo           Made by craeckor
 echo ======================================
 echo.
@@ -129,7 +129,7 @@ if NOT "!min-path-version!" == "0" (
 
 :menu
 MODE 150,45
-title Browser Installation Script v1.0
+title Browser Installation Script v1.1
 cls
 echo.
 echo       _                                                                                                                                   _   
