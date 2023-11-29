@@ -3,10 +3,10 @@ This script makes it possible to install different Browsers without a browser. G
 
 ## Prerequirements
 - Command Prompt (CMD) 10.x or later
-- cURL 7.40.x or later
+- cURL 7.55.x or later
 - Powershell 5.x or later
 - Working internet connection
-- Windows 10 1507 or later
+- Windows 10 1803 or later
 
 ## Supported Browsers
 - Firefox Browser (recommended)
